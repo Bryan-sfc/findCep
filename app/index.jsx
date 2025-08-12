@@ -1,5 +1,6 @@
 import { Text, View, StyleSheet, ImageBackground, Image } from "react-native";
-import {Input} from '../components/input/Input'
+import { Input } from '../components/input/Input';
+// import { Botao } from '../components/botao/Botao';
 
 export default function Index() {
   return (
@@ -17,9 +18,11 @@ export default function Index() {
         <Text style={styles.titulo}>Consulte seu CEP</Text>
 
         {/* 2.2. Input */}
-        <Input/>
+        <Input />
 
         {/* 2.3. Botão */}
+        {/* <Botao tituloBotao='Consultar'/> */}
+
         {/* 2.3. Botão */}
       </View>
     </>
